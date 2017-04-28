@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["Bruflot <idar@bruflot.io>"]
 description = "Rust bindings for the Gravity API"
 repository = "https://github.com/Bruflot/gravity-rs.git"
+build = "build.rs"
