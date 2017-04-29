@@ -1,2 +1,8 @@
 language: rust
 rust: stable
+
+before_install:
+  - git clone https://github.com/marcobambini/gravity.git
+  - cd gravity && make lib
+  - export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PWD
+  - export LIBRARY_PATH=$LIBRARY_PATH:$PWD
