@@ -1,8 +1,13 @@
 [package]
 name = "gravity"
-version = "0.1.0"
+version = "0.1.2"
 authors = ["Bruflot <idar@bruflot.io>"]
 description = "Rust bindings for the Gravity API"
 repository = "https://github.com/Bruflot/gravity-rs.git"
+categories = ["api-bindings", "external-ffi-bindings"]
+keywords = ["gravity", "gravity-language", "gravity-rs", "ffi"]
 license = "MIT"
 build = "build.rs"
+
+[badges]
+travis-ci = { repository = "Bruflot/gravity-rs" }
