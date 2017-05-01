@@ -9,5 +9,5 @@ A safe, idiomatic wrapper is under development and will be published soon.
 
 ## Examples
 
-- The `addition.rs` example embeds a Gravity VM in a Rust application and runs a simple arithmetic function written in Gravity.
+- The `addition` example embeds a Gravity VM and runs a simple arithmetic function written in Gravity.
 - More to come.
