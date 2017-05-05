@@ -1,5 +1,10 @@
 language: rust
-rust: stable
+rust: 
+  - stable
+  - nightly
+matrix:
+  allow_failures:
+    - rust: nightly
 
 before_install:
   - git clone https://github.com/marcobambini/gravity.git
