@@ -5,7 +5,7 @@
 
 Raw Rust bindings for the [Gravity API](https://github.com/marcobambini/gravity). Lets you embed a Gravity VM in Rust applications and execute Gravity code.
 
-A safe, idiomatic wrapper is under development and will be published soon.
+A safe, idiomatic wrapper is under development and can be found in the `wrapper` branch.
 
 ## Examples
 
