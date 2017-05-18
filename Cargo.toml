@@ -4,10 +4,12 @@ version = "0.1.3"
 authors = ["Bruflot <idar@bruflot.io>"]
 description = "Rust bindings for the Gravity API"
 repository = "https://github.com/Bruflot/gravity-rs.git"
-categories = ["api-bindings", "external-ffi-bindings"]
+categories = ["api-bindings"]
 keywords = ["gravity", "gravity-language", "gravity-rs", "ffi"]
 license = "MIT"
-build = "build.rs"
 
 [badges]
 travis-ci = { repository = "Bruflot/gravity-rs" }
+
+[dependencies]
+gravity-sys = { path = "gravity-sys" }
