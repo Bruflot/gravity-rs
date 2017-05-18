@@ -1,7 +1,6 @@
 #![allow(unused_variables, dead_code)]
 extern crate gravity_sys as G;
 
-mod error;
 mod builder;
 
 use std::ffi::CString;
